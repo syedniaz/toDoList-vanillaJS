@@ -1,0 +1,96 @@
+body{
+    font-family:cursive;
+    font-size: larger;
+}
+
+li{
+    text-decoration: underline;
+    padding: 1vh;
+    list-style-type: disc;
+}
+
+h1{
+    text-align: center;
+}
+.form-el label{
+    margin-left: 1rem;
+}
+
+.textInput{
+    border: solid #987EFF 0.8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 15px;
+    width: 80%;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn{
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.dl{
+    background-color: #f6d357;
+    border: solid #f6d357 0.1px;
+}
+
+.dl:hover{
+    border: solid #ffa600 0.1px;
+    background-color: #ffa600;
+}
+
+.sb{
+    border: solid #5BF1C9 0.1px;
+    background-color: #5BF1C9;
+}
+
+.sb:hover{
+    border: solid rgb(65, 186, 65) 0.1px;
+    background-color: rgb(65, 186, 65);
+}
+
+.form-el{
+    border: solid #987EFF 1px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #987EFF;
+}
+
+.list-items{
+    background-color: #F9FC8B;
+    border-radius: 10px;
+}
+
+.list-items ul li{
+    border-bottom: 1px solid #ccc; /* Adjust color and thickness as needed */
+    padding-bottom: 10px; /* Adjust padding as needed */
+    margin-bottom: 10px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+p{
+    display: none;
+}
+
+.tasklist{
+    background-color: #62d3b5a8;
+}
